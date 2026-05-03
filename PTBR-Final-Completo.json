@@ -1,0 +1,92 @@
+[
+  {
+    "name": "🇧🇷 Torrentio | PT-BR | 4K→1080p | Filmes",
+    "type": "json_imdb",
+    "imdbType": "movie",
+    "itemType": "info_hash",
+    "infoHashTargetKey": "infoHash",
+    "jsonResultsKey": "streams",
+    "torrentNameTargetKey": "title",
+    "sizePattern": "💾\\s*([\\d.]+)\\s*(GB|MB)",
+    "searchPattern": {
+      "movie": "movie/%imdbId",
+      "tv": "series/%imdbId:%season:%episode"
+    },
+    "url": "https://torrentio.strem.fun/sort=qualitysize|qualityfilter=720p,480p,360p,240p,scr,cam,unknown|limit=5|language=portuguese/stream/%searchPattern.json"
+  },
+  {
+    "name": "🇧🇷 Torrentio | PT-BR | 4K→1080p | Séries",
+    "type": "json_imdb",
+    "imdbType": "tv",
+    "itemType": "info_hash",
+    "infoHashTargetKey": "infoHash",
+    "jsonResultsKey": "streams",
+    "torrentNameTargetKey": "title",
+    "sizePattern": "💾\\s*([\\d.]+)\\s*(GB|MB)",
+    "searchPattern": {
+      "movie": "movie/%imdbId",
+      "tv": "series/%imdbId:%season:%episode"
+    },
+    "url": "https://torrentio.strem.fun/sort=qualitysize|qualityfilter=720p,480p,360p,240p,scr,cam,unknown|limit=5|language=portuguese/stream/%searchPattern.json"
+  },
+  {
+    "name": "⚡ Stremthru | P2P | Filmes",
+    "type": "json_imdb",
+    "imdbType": "movie",
+    "itemType": "info_hash",
+    "infoHashTargetKey": "infoHash",
+    "jsonResultsKey": "streams",
+    "torrentNameTargetKey": "behaviorHints.filename",
+    "sizeAttr": "behaviorHints.videoSize",
+    "searchPattern": {
+      "movie": "movie/%imdbId",
+      "tv": "series/%imdbId:%season:%episode"
+    },
+    "url": "https://stremthru.13377001.xyz/stremio/torz/eyJpbmRleGVycyI6bnVsbCwic3RvcmVzIjpbeyJjIjoicDJwIiwidCI6IiJ9XX0=/stream/%searchPattern.json"
+  },
+  {
+    "name": "⚡ Stremthru | P2P | Séries",
+    "type": "json_imdb",
+    "imdbType": "tv",
+    "itemType": "info_hash",
+    "infoHashTargetKey": "infoHash",
+    "jsonResultsKey": "streams",
+    "torrentNameTargetKey": "behaviorHints.filename",
+    "sizeAttr": "behaviorHints.videoSize",
+    "searchPattern": {
+      "movie": "movie/%imdbId",
+      "tv": "series/%imdbId:%season:%episode"
+    },
+    "url": "https://stremthru.13377001.xyz/stremio/torz/eyJpbmRleGVycyI6bnVsbCwic3RvcmVzIjpbeyJjIjoicDJwIiwidCI6IiJ9XX0=/stream/%searchPattern.json"
+  },
+  {
+    "name": "🌠 Meteor | PT-BR | 4K→1080p | Filmes",
+    "type": "json_imdb",
+    "imdbType": "movie",
+    "itemType": "info_hash",
+    "infoHashTargetKey": "infoHash",
+    "jsonResultsKey": "streams",
+    "torrentNameTargetKey": "title",
+    "sizePattern": "💾\\s*([\\d.]+)\\s*(GB|MB)",
+    "searchPattern": {
+      "movie": "movie/%imdbId",
+      "tv": "series/%imdbId:%season:%episode"
+    },
+    "url": "https://meteorfortheweebs.midnightignite.me/eyJkZWJyaWRTZXJ2aWNlIjoidG9ycmVudCIsImRlYnJpZEFwaUtleSI6IiIsImNhY2hlZE9ubHkiOnRydWUsImVuYWJsZVlvdXJNZWRpYSI6ZmFsc2UsInlvdXJNZWRpYUxlZ2FjeU1vZGUiOmZhbHNlLCJzaG93WW91ck1lZGlhU3RyZWFtcyI6ZmFsc2UsInlvdXJNZWRpYVNvdXJjZXMiOlsidG9ycmVudCJdLCJyZW1vdmVUcmFzaCI6ZmFsc2UsInJlbW92ZVNhbXBsZXMiOmZhbHNlLCJyZW1vdmVBZHVsdCI6ZmFsc2UsImV4Y2x1ZGUzRCI6ZmFsc2UsImVuYWJsZVNlYURleCI6ZmFsc2UsImVuYWJsZVVzZW5ldCI6ZmFsc2UsInVzZW5ldEN1c3RvbUVuZ2luZXMiOmZhbHNlLCJtaW5TZWVkZXJzIjowLCJtYXhSZXN1bHRzIjowLCJtYXhSZXN1bHRzUGVyUmVzIjoyLCJtYXhTaXplIjowLCJyZXNvbHV0aW9ucyI6WyI0ayIsIjEwODBwIl0sImxhbmd1YWdlcyI6eyJwcmVmZXJyZWQiOlsicHQiLCJtdWx0aSIsImR1YWwiLCJlbiJdLCJyZXF1aXJlZCI6W10sImV4Y2x1ZGUiOltdfSwicmVzdWx0Rm9ybWF0IjpbInRpdGxlIiwicXVhbGl0eSIsInNpemUiLCJhdWRpbyJdLCJzb3J0T3JkZXIiOlsibGFuZ3VhZ2UiLCJyZXNvbHV0aW9uIiwiY2FjaGVkIiwicXVhbGl0eSIsInBhY2siLCJ5b3VybWVkaWEiLCJzZWFkZXgiLCJzaXplIiwic2VlZGVycyIsInR5cGUiXX0/stream/%searchPattern.json"
+  },
+  {
+    "name": "🌠 Meteor | PT-BR | 4K→1080p | Séries",
+    "type": "json_imdb",
+    "imdbType": "tv",
+    "itemType": "info_hash",
+    "infoHashTargetKey": "infoHash",
+    "jsonResultsKey": "streams",
+    "torrentNameTargetKey": "title",
+    "sizePattern": "💾\\s*([\\d.]+)\\s*(GB|MB)",
+    "searchPattern": {
+      "movie": "movie/%imdbId",
+      "tv": "series/%imdbId:%season:%episode"
+    },
+    "url": "https://meteorfortheweebs.midnightignite.me/eyJkZWJyaWRTZXJ2aWNlIjoidG9ycmVudCIsImRlYnJpZEFwaUtleSI6IiIsImNhY2hlZE9ubHkiOnRydWUsImVuYWJsZVlvdXJNZWRpYSI6ZmFsc2UsInlvdXJNZWRpYUxlZ2FjeU1vZGUiOmZhbHNlLCJzaG93WW91ck1lZGlhU3RyZWFtcyI6ZmFsc2UsInlvdXJNZWRpYVNvdXJjZXMiOlsidG9ycmVudCJdLCJyZW1vdmVUcmFzaCI6ZmFsc2UsInJlbW92ZVNhbXBsZXMiOmZhbHNlLCJyZW1vdmVBZHVsdCI6ZmFsc2UsImV4Y2x1ZGUzRCI6ZmFsc2UsImVuYWJsZVNlYURleCI6ZmFsc2UsImVuYWJsZVVzZW5ldCI6ZmFsc2UsInVzZW5ldEN1c3RvbUVuZ2luZXMiOmZhbHNlLCJtaW5TZWVkZXJzIjowLCJtYXhSZXN1bHRzIjowLCJtYXhSZXN1bHRzUGVyUmVzIjoyLCJtYXhTaXplIjowLCJyZXNvbHV0aW9ucyI6WyI0ayIsIjEwODBwIl0sImxhbmd1YWdlcyI6eyJwcmVmZXJyZWQiOlsicHQiLCJtdWx0aSIsImR1YWwiLCJlbiJdLCJyZXF1aXJlZCI6W10sImV4Y2x1ZGUiOltdfSwicmVzdWx0Rm9ybWF0IjpbInRpdGxlIiwicXVhbGl0eSIsInNpemUiLCJhdWRpbyJdLCJzb3J0T3JkZXIiOlsibGFuZ3VhZ2UiLCJyZXNvbHV0aW9uIiwiY2FjaGVkIiwicXVhbGl0eSIsInBhY2siLCJ5b3VybWVkaWEiLCJzZWFkZXgiLCJzaXplIiwic2VlZGVycyIsInR5cGUiXX0/stream/%searchPattern.json"
+  }
+]
