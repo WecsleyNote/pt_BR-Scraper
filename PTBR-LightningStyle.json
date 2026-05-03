@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Torrentio PT-BR Filmes",
+    "type": "json_imdb",
+    "imdbType": "movie",
+    "itemType": "info_hash",
+    "infoHashTargetKey": "infoHash",
+    "jsonResultsKey": "streams",
+    "torrentNameTargetKey": "title",
+    "sizePattern": "💾\\s*([\\d.]+)\\s*(GB|MB)",
+    "searchPattern": {
+      "movie": "movie/%imdbId",
+      "tv": "series/%imdbId:%season:%episode"
+    },
+    "url": "https://torrentio.strem.fun/sort=qualitysize|qualityfilter=720p,480p,360p,240p,scr,cam,unknown|limit=4|language=portuguese/stream/%searchPattern.json"
+  },
+  {
+    "name": "Torrentio PT-BR Series",
+    "type": "json_imdb",
+    "imdbType": "tv",
+    "itemType": "info_hash",
+    "infoHashTargetKey": "infoHash",
+    "jsonResultsKey": "streams",
+    "torrentNameTargetKey": "title",
+    "sizePattern": "💾\\s*([\\d.]+)\\s*(GB|MB)",
+    "searchPattern": {
+      "movie": "movie/%imdbId",
+      "tv": "series/%imdbId:%season:%episode"
+    },
+    "url": "https://torrentio.strem.fun/sort=qualitysize|qualityfilter=720p,480p,360p,240p,scr,cam,unknown|limit=4|language=portuguese/stream/%searchPattern.json"
+  },
+  {
+    "name": "Meteor PT-BR Filmes",
+    "type": "json_imdb",
+    "imdbType": "movie",
+    "itemType": "info_hash",
+    "infoHashTargetKey": "infoHash",
+    "jsonResultsKey": "streams",
+    "torrentNameTargetKey": "title",
+    "sizePattern": "💾\\s*([\\d.]+)\\s*(GB|MB)",
+    "searchPattern": {
+      "movie": "movie/%imdbId",
+      "tv": "series/%imdbId:%season:%episode"
+    },
+    "url": "https://meteorfortheweebs.midnightignite.me/eyJkZWJyaWRTZXJ2aWNlIjoidG9ycmVudCIsImRlYnJpZEFwaUtleSI6IiIsImNhY2hlZE9ubHkiOnRydWUsImVuYWJsZVlvdXJNZWRpYSI6ZmFsc2UsInlvdXJNZWRpYUxlZ2FjeU1vZGUiOmZhbHNlLCJzaG93WW91ck1lZGlhU3RyZWFtcyI6ZmFsc2UsInlvdXJNZWRpYVNvdXJjZXMiOlsidG9ycmVudCJdLCJyZW1vdmVUcmFzaCI6ZmFsc2UsInJlbW92ZVNhbXBsZXMiOmZhbHNlLCJyZW1vdmVBZHVsdCI6ZmFsc2UsImV4Y2x1ZGUzRCI6ZmFsc2UsImVuYWJsZVNlYURleCI6ZmFsc2UsImVuYWJsZVVzZW5ldCI6ZmFsc2UsInVzZW5ldEN1c3RvbUVuZ2luZXMiOmZhbHNlLCJtaW5TZWVkZXJzIjowLCJtYXhSZXN1bHRzIjo0LCJtYXhSZXN1bHRzUGVyUmVzIjoyLCJtYXhTaXplIjowLCJyZXNvbHV0aW9ucyI6WyI0ayIsIjEwODBwIl0sImxhbmd1YWdlcyI6eyJwcmVmZXJyZWQiOlsicHQiLCJtdWx0aSIsImR1YWwiXSwicmVxdWlyZWQiOlsicHQiLCJtdWx0aSIsImR1YWwiXSwiZXhjbHVkZSI6W119LCJyZXN1bHRGb3JtYXQiOlsidGl0bGUiLCJxdWFsaXR5Iiwic2l6ZSIsImF1ZGlvIl0sInNvcnRPcmRlciI6WyJsYW5ndWFnZSIsInJlc29sdXRpb24iLCJjYWNoZWQiLCJxdWFsaXR5IiwicGFjayIsInlvdXJtZWRpYSIsInNlYWRleCIsInNpemUiLCJzZWVkZXJzIiwidHlwZSJdfQ==/stream/%searchPattern.json"
+  },
+  {
+    "name": "Meteor PT-BR Series",
+    "type": "json_imdb",
+    "imdbType": "tv",
+    "itemType": "info_hash",
+    "infoHashTargetKey": "infoHash",
+    "jsonResultsKey": "streams",
+    "torrentNameTargetKey": "title",
+    "sizePattern": "💾\\s*([\\d.]+)\\s*(GB|MB)",
+    "searchPattern": {
+      "movie": "movie/%imdbId",
+      "tv": "series/%imdbId:%season:%episode"
+    },
+    "url": "https://meteorfortheweebs.midnightignite.me/eyJkZWJyaWRTZXJ2aWNlIjoidG9ycmVudCIsImRlYnJpZEFwaUtleSI6IiIsImNhY2hlZE9ubHkiOnRydWUsImVuYWJsZVlvdXJNZWRpYSI6ZmFsc2UsInlvdXJNZWRpYUxlZ2FjeU1vZGUiOmZhbHNlLCJzaG93WW91ck1lZGlhU3RyZWFtcyI6ZmFsc2UsInlvdXJNZWRpYVNvdXJjZXMiOlsidG9ycmVudCJdLCJyZW1vdmVUcmFzaCI6ZmFsc2UsInJlbW92ZVNhbXBsZXMiOmZhbHNlLCJyZW1vdmVBZHVsdCI6ZmFsc2UsImV4Y2x1ZGUzRCI6ZmFsc2UsImVuYWJsZVNlYURleCI6ZmFsc2UsImVuYWJsZVVzZW5ldCI6ZmFsc2UsInVzZW5ldEN1c3RvbUVuZ2luZXMiOmZhbHNlLCJtaW5TZWVkZXJzIjowLCJtYXhSZXN1bHRzIjo0LCJtYXhSZXN1bHRzUGVyUmVzIjoyLCJtYXhTaXplIjowLCJyZXNvbHV0aW9ucyI6WyI0ayIsIjEwODBwIl0sImxhbmd1YWdlcyI6eyJwcmVmZXJyZWQiOlsicHQiLCJtdWx0aSIsImR1YWwiXSwicmVxdWlyZWQiOlsicHQiLCJtdWx0aSIsImR1YWwiXSwiZXhjbHVkZSI6W119LCJyZXN1bHRGb3JtYXQiOlsidGl0bGUiLCJxdWFsaXR5Iiwic2l6ZSIsImF1ZGlvIl0sInNvcnRPcmRlciI6WyJsYW5ndWFnZSIsInJlc29sdXRpb24iLCJjYWNoZWQiLCJxdWFsaXR5IiwicGFjayIsInlvdXJtZWRpYSIsInNlYWRleCIsInNpemUiLCJzZWVkZXJzIiwidHlwZSJdfQ==/stream/%searchPattern.json"
+  }
+]
